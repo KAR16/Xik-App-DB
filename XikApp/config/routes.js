@@ -34,6 +34,30 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
+  },
+  '/user/view/plan_pago':{
+    controller:'UserController', action: 'viewPlanPago'
+  },
+  '/user/view/cargo':{
+    controller:'UserController', action: 'viewCargo'
+  },
+  '/user/view/pago':{
+    controller:'UserController', action: 'viewPago'
+  },
+  '/user/view/pago_cargo':{
+    controller:'UserController', action: 'viewPagoCargo'
+  },
+  '/user/table/plan_pago':{
+    view:'user/tablePlanPago'
+  },
+  '/user/table/cargo':{
+    view:'user/tableCargo'
+  },
+  '/user/table/pago':{
+    view:'user/tablePago'
+  },
+  '/user/table/pago_cargo':{
+    view:'user/tablePagoCargo'
   }
 
   /***************************************************************************
